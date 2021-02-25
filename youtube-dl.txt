@@ -1,0 +1,22 @@
+YOUTUBE-DL
+	youtube-dl.exe <option> <url>
+	requires the Python interpreter, version 2.6, 2.7, or 3.2+
+	put downloads where it was started!
+	pip install --upgrade youtube-dl for updating
+
+OPTIONS
+	--get-url -g (outputs just stream url)
+
+	--list-formats -F (outputs avalible formats with <code>)
+
+	--format -f <code> (e.g. for merge -f <video code>+<audio code>)
+
+	--simulate -s (just simulate dont write anything)
+
+	--merge-output-format <format> (<Format> One of mkv, mp4, ogg, webm, flv)
+
+	-o "Path\for\output" (achtung read write permissions)
+
+	-extract-audio -x 
+
+	--audio-format mp3 (needs -x see above)

@@ -1,0 +1,11 @@
+PYTHON EMBEDED VERSION
+	to install pip search for how to manually install pip
+	as of time of writing this do
+	1. curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+	2. put into folder and run cmd in folder then
+	3. python get-pip.py
+	4. add scripts to system PATH
+	5. edit python39._pth in vim in first line ShiftO add new line at the top with lib\site-packages
+
+PYTHON IN CMD
+	to exit type Strg Z (should look like ^Z) then enter 
